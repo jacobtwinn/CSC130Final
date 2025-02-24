@@ -27,7 +27,7 @@ public class Main{
 	public static void start(){
 		// TODO: Code your starting conditions here...NOT DRAW CALLS HERE! (no addSprite or drawString)
 		int startX = -100; // Starting X position (off screen)
-		int endX = 500; // Triggers reset position
+		int endX = 800; // Triggers reset position
 		int step = 25; // Increment
 		int yPosition = 200; // Y starting position
 		
@@ -40,7 +40,7 @@ public class Main{
 	public static void update(Control ctrl) {
 		// TODO: This is where you can code! (Starting code below is just to show you how it works)
 		if (timer.isTimeUp()) { // Every 250ms this block executes and starts animation frame
-			Queue<Vector2D> tempQueue = new LinkedList<>(); //Temp queue
+
             if (vecs1.isEmpty()) { // If vecs1 is empty, refill with second queue
             	while (!vecs2.isEmpty()) { // Transfer elements from vecs2 to tempQueue
                     vecs1.add(vecs2.remove());
