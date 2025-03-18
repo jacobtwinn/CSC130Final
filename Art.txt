@@ -1,2 +1,4 @@
-Art/f.png*f0
-Art/kitty_sprite1.png*kitty1
+Art/kitty_sprite1.png*walk0
+Art/kitty_sprite2.png*walk1
+Art/kitty_sprite3.png*walk2
+Art/kitty_sprite4.png*walk3
